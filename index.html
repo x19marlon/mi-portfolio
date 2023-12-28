@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Silkscreen">
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="/assets/icons/moon.svg"
+            alt="icon theme moon"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+    </header>
+    <section class="display">
+      <div class="banner">
+        <p class="card__title">MARLON 
+          GARCIA 
+        <p class="card__subtitle">Backend Developer</p></p>
+      </div> 
+    </section>
+     <section class="display1">
+      <div class="profile-column">
+        <p class="location">Based in Madrid</p>
+        <p class="years">20 years old</p>
+        <img class="mi__foto" src="/assets/images/bob.png" alt="mi__foto" >
+      </div>
+      <div class="text-column">
+        I'm Marlon Garcia, a 20-year-old coder passionate about crafting innovative digital solutions.
+         I'm not just a developer but a perpetual learner in
+          the dynamic world of programming. Each project is a chance to blend creativity and functionality. 
+          Join me in navigating the evolving software development landscape, let's build something remarkable together!
+    </div>
+    </section>
+    
+      <div class="glossary">
+        <a href="#skills_link">
+        <div class="skills">
+          <img class="gif" src="assets/icons/skills.gif" alt="skills"></a>
+          <h2 class="section__title">Skills</h2>
+          <p class="debs__title">Dive into my skill set</p>
+        </div>
+        <div class="portfolio">
+          <a href="#portfolio_link">
+          <img class="gif" src="/assets/icons/portfolio.gif" alt="portfolio"> </a>
+          <h2 class="project__case">Project Showcase</h2> 
+          <p class="debs__title">Embark on a visual journey through my programming endeavors</p>
+           
+        </div>
+        <div  class="contact">
+          <a href="#contact_link">
+          <img src="/assets/icons/contact.gif" alt="contact" class="gif"></a>
+          <h2 class="section__title">Contact</h2>
+          <p id="skills_link"  class="debs__title">Have a question, project proposal, or just want to chat about all things programming? </p>
+        </div>
+      </div>
+        <p class="skills__title">Skills</p>
+        <section  class="skills__section">
+        <p class="skills__text">I am proficient in programming with Java, HTML, CSS, and JavaScript.
+        I embarked on my programming journey with these languages, and I thoroughly
+        enjoy exploring solutions and channeling my creativity to bring ideas to life through code.</p>
+      <div class="Tech">
+        <img id="logo" class="java" src="/assets/icons/Java.svg" alt="java">
+        <img id="logo" src="/assets/icons/HTML.svg" alt="HTML">
+        <img id="logo" src="/assets/icons/CSS.svg" alt="CSS">
+        <img id="logo" src="/assets/icons/JavaS.svg" alt="javascript">
+      </div>
+    </section>
+   <h1 class="languages_title">languages</h1>
+    <section id="languages_link" class="languages">
+      <article class="card">
+        <p class="card__language">SPANISH</p>
+        <div class="skillscontent">
+          <p class="description">Native</p>
+          <div class="skills__item">
+          <div id="skillsBar" class="skills__bar skills__bar--100"> 
+          </div>
+         <p class="porcentual">C2</p>
+        </div>
+        </div>
+      </article>
+      <article class="card">
+        <p class="card__language">ENGLISH</p>
+        <div class="skillscontent">
+          <p class="description">Advanced</p>
+          <div class="skills__item">
+          <div id="skillsBar" class="skills__bar skills__bar--80"> 
+          </div>
+          <p class="porcentual">C1</p>
+        </div>
+        </div>
+      </article>
+    </section>
+    <section id="portfolio_link" class="portfolio_section">
+      <h1 class="title_portfolio">Portfolio</h1>
+      <div class="project__container">
+      <div class="project1"><!--Insert a project-->project1</div>
+      <div class="project2"><!--Insert a project-->project2</div>
+      <div class="project3"><!--Insert a project-->project3</div>
+    </div>
+    </section>
+    <section id="contact_link" class="contact_section">
+      <div class="contact_grid1"><h1 class="contact_title">Contact me</h1>
+      <p class="contact_text">Please contact me via this form and I will replay back within 24 hours.
+      </p>
+        <form class="form"  action="https://formspree.io/f/mpzvavrn" method="post">
+            <label for="full-name">Your Name</label> <br>
+            <input> <br>
+            <label >Email</label> <br>
+            <input type="email" name="_replyto" id="email-address" required=""> <br>
+            <label for="message">Message</label> <br>
+            <textarea class="text_form" rows="5" name="message" id="message"required=""></textarea> <br>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"> <br>
+          <input type="submit" value="Submit">
+        </form></div>
+    </section>
+    <footer class="footer"> <div class="get_touch">
+      <img src="/assets/icons/phone.svg" alt="phone">
+      <p>+34 667 02 58 15 </p></div>
+      <div class="get_touch"><img src="/assets/icons/gmail.svg" alt="gmail">
+    <p>marlongarcia5465@gmail.com</p></div></footer>
+
+    <script src="js/scripts.js"></script>
+    <!-- <div class="card__body">
+      <i class="fas fa-envelope icon"><img src="/assets/icons/gmail.svg" alt="gmail"></i>
+      <div class="card__link">
+        <a href="mailto:marlongarcia5465@gmail.com">
+          marlongarcia5465@gmail.com
+        </a>
+      </div>
+      <div class="card__link">
+        <img src="/assets/icons/phone.svg" alt="phone">
+        <a href="tel:667025815">
+          +34 667 02 58 15
+        </a>
+      </div>
+    </div>-->
+  </body>
+</html>
